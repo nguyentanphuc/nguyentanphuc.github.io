@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile.jpg"
+  avatar           : "images/profile.png"
   name             : "Tan-Phuc Nguyen"
   pronouns         : # example: "she/her"  
   bio              : "Incoming Graduate Teaching Assistant & PhD Student in Applied Mathematics at Texas A&M University"
