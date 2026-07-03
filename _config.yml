@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Tan-Phuc Nguyen | Academic Page"
+title                    : "Tan-Phuc Nguyen | Academic Website"
 title_separator          : "-"
 name                     : &name "Tan-Phuc Nguyen"
 description              : &description "Tan-Phuc Nguyen's academic website."   # Update this with a general description of your site, this is the default if not overridden by a page
