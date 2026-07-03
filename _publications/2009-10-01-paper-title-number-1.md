@@ -1,14 +1,19 @@
 ---
-title: "Paper Title Number 1"
+title: "A new approach to convergence analysis of iterative models with optimal error bounds"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2025-01-01
+
+paperurl: "[link](https://link.springer.com/article/10.1007/s13398-025-01716-1)"   # hoặc link PDF
+
+citation: >
+  Minh-Phuong Tran,
+  Thanh-Nhan Nguyen,
+  Thai-Hung Nguyen,
+  <strong>Tan-Phuc Nguyen</strong>,
+  Tien-Khai Nguyen,
+  Cong-Duy-Nguyen Nguyen,
+  Trung-Hieu Huynh,
+  A new approach to convergence analysis of iterative models with optimal error bounds,
+  <i>Revista de la Real Academia de Ciencias Exactas, Físicas y Naturales. Serie A. Matemáticas</i>,
+  <b>119</b> (2025), 50, 29 pages.
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
