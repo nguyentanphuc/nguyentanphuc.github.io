@@ -1,5 +1,5 @@
 ---
-title: "The $\alpha$-fractional gradient estimates for solutions to the borderline case of double-phase elliptic problems"
+title: "The $alpha$-fractional gradient estimates for solutions to the borderline case of double-phase elliptic problems"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-03-09-gradient-estimate-2
