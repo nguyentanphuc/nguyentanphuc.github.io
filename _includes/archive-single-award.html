@@ -8,6 +8,10 @@
     <a href="{{ post.awardurl }}">[link]</a>
   {% endif %}
 
+  {% if post.certurl %}
+    <a href="{{ base_path }}{{ post.certurl }}" target="_blank">[cert]</a>
+  {% endif %}
+  
   {% if post.newsurl %}
     <a href="{{ post.newsurl }}">[news]</a>
   {% endif %}
