@@ -2,34 +2,22 @@
 
 <li class="talk-item">
 
-  <strong>{{ post.title }}</strong>
+<span style="color: darkred;">{{ post.title }}</span>{% if post.venue %}, {{ post.venue }}{% endif %}{% if post.location %}, {{ post.location }}{% endif %}{% if post.date %}, {{ post.date | date: "%B %Y" }}.{% endif %}
 
-  {% if post.venue %}
-    , {{ post.venue }}
-  {% endif %}
+{% if post.linkurl %}
+  <a href="{{ post.linkurl }}" target="_blank">[link]</a>
+{% endif %}
 
-  {% if post.location %}
-    , {{ post.location }}
-  {% endif %}
+{% if post.letterurl %}
+  <a href="{{ base_path }}{{ post.letterurl }}" target="_blank">[letter]</a>
+{% endif %}
 
-  {% if post.date %}
-    , {{ post.date | date: "%B %Y" }}
-  {% endif %}.
+{% if post.slidesurl %}
+  <a href="{{ post.slidesurl }}" target="_blank">[slides]</a>
+{% endif %}
 
-  {% if post.linkurl %}
-    <a href="{{ post.linkurl }}" target="_blank">[link]</a>
-  {% endif %}
-
-  {% if post.letterurl %}
-    <a href="{{ base_path }}{{ post.letterurl }}" target="_blank">[letter]</a>
-  {% endif %}
-
-  {% if post.slidesurl %}
-    <a href="{{ post.slidesurl }}" target="_blank">[slides]</a>
-  {% endif %}
-
-  {% if post.paperurl %}
-    <a href="{{ post.paperurl }}" target="_blank">[paper]</a>
-  {% endif %}
+{% if post.paperurl %}
+  <a href="{{ post.paperurl }}" target="_blank">[paper]</a>
+{% endif %}
 
 </li>
