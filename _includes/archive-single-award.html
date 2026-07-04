@@ -1,0 +1,27 @@
+{% include base_path %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item">
+
+    <div class="archive__item-excerpt" style="margin-bottom: 15px;">
+      <p style="margin: 0; text-align: justify;">
+
+        {{ post.citation }}
+
+        {% if post.awardurl %}
+          <a href="{{ post.awardurl }}">[link]</a>
+        {% endif %}
+
+        {% if post.newsurl %}
+          <a href="{{ post.newsurl }}">[news]</a>
+        {% endif %}
+
+        {% if post.certificateurl %}
+          <a href="{{ post.certificateurl }}">[certificate]</a>
+        {% endif %}
+
+      </p>
+    </div>
+
+  </article>
+</div>
