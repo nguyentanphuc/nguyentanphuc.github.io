@@ -1,6 +1,13 @@
 {% include base_path %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<ul class="award-list">
+  <li>
+    {{ post.citation }}
+    {% if post.awardurl %}
+      <a href="{{ post.awardurl }}">[link]</a>
+    {% endif %}
+  </li>
+</ul>
   <article class="archive__item">
 
     <div class="archive__item-excerpt" style="margin-bottom: 15px;">
